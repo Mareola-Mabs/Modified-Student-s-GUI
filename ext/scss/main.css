@@ -591,7 +591,7 @@ pre, small, strong {
   cursor: default;
 }
 .main button.views {
-  background: rgb(34, 145, 34);
+  background: lightgreen;
   border: none;
   height: 30px;
   border-radius: 5px;
@@ -606,6 +606,9 @@ pre, small, strong {
   background: lightgreen;
   -webkit-box-shadow: 1px 1px 2px rgb(64, 111, 130);
           box-shadow: 1px 1px 2px rgb(64, 111, 130);
+}
+.main button.views.available {
+  background: rgb(34, 145, 34);
 }
 .main button.views.available:hover {
   background: rgb(34, 145, 34);
